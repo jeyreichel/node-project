@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install --omit=dev && node index.js",
+    "start": "npm ci --omit=dev && node index.js",
     "dev": "nodemon index",
     "vercel-build": "echo Hello"
   },
